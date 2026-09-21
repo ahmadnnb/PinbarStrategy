@@ -34,8 +34,8 @@ The included scripts generate:
 
 The tested dataset covers November 2012 through March 2022. Under the
 current configuration, the strategy generated 10 tested signals, with
-2 wins and 8 losses. The total result was -6R, equivalent to a compounded
-return of approximately -5.87% when 1R represents 1% of account equity.
+8 wins and 2 losses. The total result was +6R, equivalent to a compounded
+return of approximately +5.87% when 1R represents 1% of account equity.
 
 These historical results do not include spreads, slippage, commissions,
 financing costs, or execution latency and should not be interpreted as
