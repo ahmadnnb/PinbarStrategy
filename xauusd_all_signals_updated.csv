@@ -1,0 +1,11 @@
+Date,Side,Direction,SignalType,PatternTypes,Open,High,Low,Close,SignalLevel,MatchingLags,MatchingDates,MatchingPriorPrices,PriorPriceType
+2015-07-02,normal/buy,long,single pinbar,single,1168.35,1169.51,1155.98,1165.63,1164.34154,19,2015-06-05,1162.6300,Low
+2016-03-24,normal/buy,long,double pinbar,current+next,1222.61,1223.71,1208.15,1221.34,1217.76608,19,2016-02-26,1211.3900,Low
+2016-03-28,normal/buy,long,double pinbar,previous+current,1222.61,1223.71,1208.15,1221.34,1217.76608,20,2016-02-26,1211.3900,Low
+2016-06-15,reverse/sell,short,double pinbar,current+next,1284.83,1315.54,1277.97,1278.75,1292.32174,32,2016-05-02,1303.6500,High
+2016-06-16,reverse/sell,short,double pinbar,previous+current,1284.83,1315.54,1277.97,1278.75,1292.32174,33,2016-05-02,1303.6500,High
+2018-02-28,normal/buy,long,double pinbar,current+next,1318.39,1322.49,1302.76,1317.16,1314.95314,39,2018-01-04,1305.7000,Low
+2021-01-11,normal/buy,long,single pinbar,single,1854.74,1855.59,1817.0,1844.45,1840.84862,18,2020-12-14,1818.3400,Low
+2021-06-14,normal/buy,long,single pinbar,single,1876.07,1877.62,1844.77,1866.31,1865.0712999999998,18,2021-05-19,1852.2300,Low
+2021-12-27,reverse/sell,short,double pinbar,current+next,1805.97,1820.18,1802.92,1806.13,1809.51332,20,2021-11-26,1815.5500,High
+2021-12-28,reverse/sell,short,double pinbar,previous+current,1805.97,1820.18,1802.92,1806.13,1809.51332,21,2021-11-26,1815.5500,High

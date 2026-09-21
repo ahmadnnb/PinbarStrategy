@@ -1,0 +1,33 @@
+Gold strategy backtest summary
+Data range: 2006-06-19 to 2026-06-19
+Signals tested: 45
+Trades generated: 45
+Closed trades: 45
+Open trades at end: 0
+Wins: 20
+Losses: 25
+Win rate: 44.44%
+Total R, closed only: -5.00
+Average R, closed only: -0.11
+Max drawdown, closed equity R: -7.00
+
+Assumptions
+Entry: signal candle Close.
+Normal/buy stop: signal Low.
+Reverse/sell stop: signal High.
+Target: 1R from entry.
+Return conversion: 1R = 1.00% account risk per trade.
+Cumulative return is fixed-risk arithmetic return.
+Compounded return risks the same percentage of current equity each trade.
+If target and stop both touch in the same daily candle, stop is counted first.
+Multiple signals can create overlapping trades; each signal is tested independently.
+
+By strategy
+Strategy  Trades  TotalR  AverageR
+  normal      26     0.0  0.000000
+ reverse      19    -5.0 -0.263158
+
+By direction
+Direction  Trades  TotalR  AverageR
+     long      26     0.0  0.000000
+    short      19    -5.0 -0.263158

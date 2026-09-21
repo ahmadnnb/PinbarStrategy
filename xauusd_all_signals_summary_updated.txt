@@ -1,0 +1,11 @@
+XAU/USD all signals summary
+Data range: 2012-11-14 to 2022-03-04
+Rows analyzed: 2400
+Normal buy signals: 6
+Reverse sell signals: 4
+All signals: 10
+Single pinbar lookbacks: 18, 19, 20, 32, 33, 37, 38, 56, 57, 75, 76
+Double pinbar/doji lookbacks: 18, 19, 20, 21, 32, 33, 34, 37, 38, 39, 56, 57, 58, 75, 76, 77
+Normal pinbar level: 0.618
+Reverse pinbar level: 0.382
+Doji body ratio: 0.382

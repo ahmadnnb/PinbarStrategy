@@ -1,0 +1,15 @@
+XAU/USD daily strategy signal summary
+Data range: 2012-11-14 to 2022-03-04
+Rows analyzed: 2400
+Pattern dates found: 770
+Signals found: 11
+Pinbar rule: Open and Close must both be greater than or equal to Low + 0.618 * (High - Low)
+Pinbar forms: single candle, previous+current, or current+next.
+Two-day OHLC: first-day Open, second-day Close, minimum Low, maximum High.
+Doji rule: abs(Close - Open) <= 0.382 * (High - Low).
+Doji confirmation: next-day Close >= Open and Close - Low >= 0.55 * (High - Low).
+Term 1: pinbar Low <= lookback candle Low
+Term 2: pinbar Open and Close >= lookback candle Low
+Term 3: every intervening Low >= lookback candle Low
+Term 4: lookback Low <= previous and following trading-day Lows
+Lookbacks: 18, 19, 20, 32, 33, 37, 38, 56, 57, 75, 76

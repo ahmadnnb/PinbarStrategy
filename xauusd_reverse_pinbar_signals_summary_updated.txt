@@ -1,0 +1,13 @@
+XAU/USD daily reverse pinbar signal summary
+Rows analyzed: 2400
+Pattern dates found: 726
+Signals found: 4
+Reverse pinbar: Open and Close <= Low + 0.382 * (High - Low)
+Reverse doji: abs(Close - Open) <= 0.382 * (High - Low).
+Reverse doji confirmation: next-day Close <= Open and Close - Low <= 0.45 * (High - Low).
+The four reverse historical terms are applied to the doji candle.
+Term 1: reverse pinbar High >= lookback candle High
+Term 2: reverse pinbar Open and Close <= lookback candle High
+Term 3: every intervening High <= lookback candle High
+Term 4: lookback High >= previous and following trading-day Highs
+Lookbacks: 18, 19, 20, 32, 33, 37, 38, 56, 57, 75, 76

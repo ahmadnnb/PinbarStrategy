@@ -1,0 +1,32 @@
+XAU/USD updated all-signal backtest summary
+Data range: 2012-11-14 to 2022-03-04
+Normal buy signals: 6
+Reverse sell signals: 4
+Signals tested: 10
+Closed trades: 10
+Wins: 2
+Losses: 8
+Win rate: 20.00%
+Total R: -6.00
+Cumulative return at 1R = 1%: -6.00%
+Compounded return: -5.87%
+Average R: -0.60
+Max drawdown R: -6.00
+
+Assumptions
+Entry: signal candle Close.
+Normal/buy stop: signal Low.
+Reverse/sell stop: signal High.
+Target: 1R from entry.
+If stop and target both touch in the same daily candle, stop is counted first.
+Multiple signals can create overlapping trades; each signal is tested independently.
+
+By strategy
+Strategy  Trades  Wins  TotalR  AverageR
+  normal       6     1    -4.0 -0.666667
+ reverse       4     1    -2.0 -0.500000
+
+By direction
+Direction  Trades  Wins  TotalR  AverageR
+     long       6     1    -4.0 -0.666667
+    short       4     1    -2.0 -0.500000

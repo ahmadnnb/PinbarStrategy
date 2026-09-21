@@ -1,0 +1,33 @@
+XAU/USD strategy backtest summary
+Data range: 2012-11-14 to 2022-03-04
+Signals tested: 26
+Trades generated: 26
+Closed trades: 26
+Open trades at end: 0
+Wins: 10
+Losses: 16
+Win rate: 38.46%
+Total R, closed only: -6.00
+Average R, closed only: -0.23
+Max drawdown, closed equity R: -9.00
+
+Assumptions
+Entry: signal candle Close.
+Normal/buy stop: signal Low.
+Reverse/sell stop: signal High.
+Target: 1R from entry.
+Return conversion: 1R = 1.00% account risk per trade.
+Cumulative return is fixed-risk arithmetic return.
+Compounded return risks the same percentage of current equity each trade.
+If target and stop both touch in the same daily candle, stop is counted first.
+Multiple signals can create overlapping trades; each signal is tested independently.
+
+By strategy
+Strategy  Trades  TotalR  AverageR
+  normal      12    -4.0 -0.333333
+ reverse      14    -2.0 -0.142857
+
+By direction
+Direction  Trades  TotalR  AverageR
+     long      12    -4.0 -0.333333
+    short      14    -2.0 -0.142857

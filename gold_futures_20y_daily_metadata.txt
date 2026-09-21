@@ -1,0 +1,11 @@
+requested_symbol=GC=F
+instrument_label=COMEX Gold Futures
+note=Yahoo spot XAUUSD aliases were unavailable from this environment; this file uses GC=F gold futures.
+source=https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF
+rows=5030
+first_date=2006-06-19
+last_date=2026-06-17
+last_close=4381.2998
+currency=USD
+exchange=COMEX
+generated_utc=2026-06-17T16:46:34.245505+00:00
